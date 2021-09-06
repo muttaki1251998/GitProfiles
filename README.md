@@ -6,7 +6,7 @@ Built with:
 
 - Next.js
 - Chart.js
-- React Flip Movw
+- React Flip
 - Styled Components
 
 ## Getting Started
