@@ -4,10 +4,10 @@ A nicer look at your GitHub Profile! With charts!
 
 Built with:
 
-- [Next.js]
-- [Chart.js]
-- [React Flip Move]
-- [Styled Components]
+- Next.js
+- Chart.js
+- React Flip Movw
+- Styled Components
 
 ## Getting Started
 
