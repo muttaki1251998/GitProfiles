@@ -1,0 +1,27 @@
+{
+  "ast": null,
+  "code": "import _taggedTemplateLiteral from \"@babel/runtime/helpers/esm/taggedTemplateLiteral\";\n\nfunction _templateObject5() {\n  var data = _taggedTemplateLiteral([\"\\n    color: \", \";\\n    background-color: \", \";\\n    padding: 1rem 2rem;\\n    border-radius: 0.25rem;\\n    box-shadow: 0px 10px 30px -8px rgba(39, 88, 184, 0.5);\\n    filter: contrast(1.25);\\n    transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1) 0s;\\n    text-transform: uppercase;\\n    font-size: 14px;\\n    font-weight: 500;\\n    letter-spacing: 0.5px;\\n\\n    &:hover,\\n    &:focus {\\n      box-shadow: 0px 6px 20px rgba(0, 118, 255, 0.23);\\n      background: rgba(0, 118, 255, 0.9);\\n    }\\n  \"]);\n\n  _templateObject5 = function _templateObject5() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _templateObject4() {\n  var data = _taggedTemplateLiteral([\"\\n    overflow: hidden;\\n    white-space: nowrap;\\n    text-overflow: ellipsis;\\n  \"]);\n\n  _templateObject4 = function _templateObject4() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _templateObject3() {\n  var data = _taggedTemplateLiteral([\"\\n    outline: 1px solid red;\\n  \"]);\n\n  _templateObject3 = function _templateObject3() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _templateObject2() {\n  var data = _taggedTemplateLiteral([\"\\n    display: flex;\\n    justify-content: space-between;\\n  \"]);\n\n  _templateObject2 = function _templateObject2() {\n    return data;\n  };\n\n  return data;\n}\n\nfunction _templateObject() {\n  var data = _taggedTemplateLiteral([\"\\n    display: flex;\\n    justify-content: center;\\n    align-items: center;\\n  \"]);\n\n  _templateObject = function _templateObject() {\n    return data;\n  };\n\n  return data;\n}\n\nimport { css } from 'styled-components';\nimport { theme } from '../style';\nvar colors = theme.colors;\nvar mixins = {\n  flexCenter: css(_templateObject()),\n  flexBetween: css(_templateObject2()),\n  outline: css(_templateObject3()),\n  ellipsis: css(_templateObject4()),\n  blueButton: css(_templateObject5(), colors.white, colors.blue)\n};\nexport default mixins;",
+  "map": {
+    "version": 3,
+    "sources": ["/Users/muhammadmuttaki/Desktop/GitProfiles/style/mixins.js"],
+    "names": [
+      "css",
+      "theme",
+      "colors",
+      "mixins",
+      "flexCenter",
+      "flexBetween",
+      "outline",
+      "ellipsis",
+      "blueButton",
+      "white",
+      "blue"
+    ],
+    "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,SAASA,GAAT,QAAoB,mBAApB;AACA,SAASC,KAAT,QAAsB,UAAtB;IACQC,M,GAAWD,K,CAAXC,M;AAER,IAAMC,MAAM,GAAG;AACbC,EAAAA,UAAU,EAAEJ,GAAF,mBADG;AAObK,EAAAA,WAAW,EAAEL,GAAF,oBAPE;AAYbM,EAAAA,OAAO,EAAEN,GAAF,oBAZM;AAgBbO,EAAAA,QAAQ,EAAEP,GAAF,oBAhBK;AAsBbQ,EAAAA,UAAU,EAAER,GAAF,qBACCE,MAAM,CAACO,KADR,EAEYP,MAAM,CAACQ,IAFnB;AAtBG,CAAf;AA2CA,eAAeP,MAAf",
+    "sourcesContent": [
+      "import { css } from 'styled-components';\nimport { theme } from '../style';\nconst { colors } = theme;\n\nconst mixins = {\n  flexCenter: css`\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  `,\n\n  flexBetween: css`\n    display: flex;\n    justify-content: space-between;\n  `,\n\n  outline: css`\n    outline: 1px solid red;\n  `,\n\n  ellipsis: css`\n    overflow: hidden;\n    white-space: nowrap;\n    text-overflow: ellipsis;\n  `,\n\n  blueButton: css`\n    color: ${colors.white};\n    background-color: ${colors.blue};\n    padding: 1rem 2rem;\n    border-radius: 0.25rem;\n    box-shadow: 0px 10px 30px -8px rgba(39, 88, 184, 0.5);\n    filter: contrast(1.25);\n    transition: all 200ms cubic-bezier(0.23, 1, 0.32, 1) 0s;\n    text-transform: uppercase;\n    font-size: 14px;\n    font-weight: 500;\n    letter-spacing: 0.5px;\n\n    &:hover,\n    &:focus {\n      box-shadow: 0px 6px 20px rgba(0, 118, 255, 0.23);\n      background: rgba(0, 118, 255, 0.9);\n    }\n  `,\n};\n\nexport default mixins;\n"
+    ]
+  },
+  "metadata": {},
+  "sourceType": "module"
+}
